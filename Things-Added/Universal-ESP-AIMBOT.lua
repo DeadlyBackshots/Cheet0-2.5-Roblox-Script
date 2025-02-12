@@ -4,7 +4,7 @@
 	--Will not work in games with custom team systems
 --If false,
 	--All players in the game will be aimed at
-    _G.WRDAimbotTeamCheck = false
+    _G.WRDAimbotTeamCheck = true
 
     --If true, 
         --Simulates mouse movement. Its as if you actually moved your mouse onto the player, meaning this is harder to detect
