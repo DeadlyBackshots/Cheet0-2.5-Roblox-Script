@@ -17,7 +17,7 @@ local Section2 = Tab:NewSection("Advanced Things")
 
 -- Toggles --
 
-Section1:NewToggle("Gravity Toggle", "This will toggle the Gravity (you will start floating)", function(state)
+Section1:NewToggle("Gravity Toggle", "This will toggle the Gravity (you will start floating by pressing E)", function(state)
     if _G.WRDGravitySwitchStarted == nil then
         _G.WRDGravitySwitchStarted = true
     end
